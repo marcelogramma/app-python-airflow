@@ -1,0 +1,10 @@
+[
+  "data/core/test_api_core_status.py::test_api_content_goog",
+  "data/core/test_api_core_status.py::test_api_status_content_amzn",
+  "data/core/test_db_core_operate.py::test_sql_conn_db",
+  "data/core/test_db_core_operate.py::test_sql_create_operate_table",
+  "data/dags-test/test_aggregation_data.py::test_aggregation_avg_amzn",
+  "data/dags-test/test_aggregation_data.py::test_aggregation_avg_goog",
+  "data/dags-test/test_aggregation_data.py::test_aggregation_avg_msft",
+  "data/dags-test/test_dummydag_plot.py::test_query_for_plots"
+]

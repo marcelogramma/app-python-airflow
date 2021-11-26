@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Flask Server For Plots</title>
+  </head>
+  <body>
+    <h1> Weekly Plot for Daily Volume (only business days)</h1>
+    <img src="{{url_for('static', filename='volume.png')}}" align="middle" width="1300" height="550" /><p></p>
+    <h1> Weekly Plot for Daily Open (only business days) </h1>
+    <img src="{{url_for('static', filename='open.png')}}" align="middle" width="1300" height="550" /><p></p>
+    <h1> Weekly Plot for Daily Close (only business days)</h1>
+    <img src="{{url_for('static', filename='close.png')}}" align="middle" width="1300" height="550" />
+  </body>
+</html>
