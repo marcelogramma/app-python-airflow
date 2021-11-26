@@ -1,0 +1,3 @@
+/app-python/logs/**/*.log
+/app-python/logs/**/*.fuse
+/app-python/logs/**/latest
