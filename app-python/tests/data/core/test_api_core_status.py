@@ -17,7 +17,7 @@ def test_api_status_content_amzn():
     assert respuesta.json()["Meta Data"]["2. Symbol"] == "AMZN"
     assert respuesta.json()["Meta Data"][
         "3. Last Refreshed"
-    ] < datetime.datetime.now().strftime("%Y-%m-%d")
+    ] <= datetime.datetime.now().strftime("%Y-%m-%d")
 
 
 # Test for Google API
@@ -30,7 +30,7 @@ def test_api_content_goog():
     assert respuesta.json()["Meta Data"]["2. Symbol"] == "GOOG"
     assert respuesta.json()["Meta Data"][
         "3. Last Refreshed"
-    ] < datetime.datetime.now().strftime("%Y-%m-%d")
+    ] <= datetime.datetime.now().strftime("%Y-%m-%d")
 
 
 # Test for Microsoft API
